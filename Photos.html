@@ -1,0 +1,346 @@
+<html>
+<link href="menu/menu.css" rel="stylesheet" type="text/css" />
+
+
+<!-- Mirrored from lakesforlife.com/Photos.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Oct 2020 11:51:26 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>::Kere Albums::</title>
+</head>
+
+<body bgcolor="#666666" topmargin="0">
+<font face="Times New Roman"> 
+<div align="center">
+	<div align="center">
+		<table border="0" width="955">
+			<tr>
+				<td>
+<div id="menu" style="width: 941px; height: 41px">
+    <ul class="menu">
+        <li><a href="index-2.html" class="parent"><span><font face="Times New Roman">Home</font></span></a><font face="Times New Roman"> </li>
+         <li><a href="About%20Us.html"><span>About Us</span></a></li>
+		  <li><a href="Articles.html" class="parent"><span>Articles</span></a>
+             </li>
+
+		  <li><a href="Activities.html"><span>Activities</span></a></li>
+		  <li><a href="PPT%27s.html" class="parent"><span>PPT's</span></a><font face="Times New Roman">
+		</font></li>
+		  <li><a href="Media.html"><span>Media</span></a></li>
+        <li><a href="Photos.html" class="parent"><span>Photos</span></a>
+        </li>
+  <li><a href="Videos.html" class="parent"><span>Videos</span></a> </li>
+
+       <li><span>
+		<a target="_blank" href="http://sanjay-sahay.com/Blog/index.html">Blogs</a></span></li>
+        <li class="last"><a href="Contact.html"><span>Contacts</span></a></li>
+    </ul>
+</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<table border="0" width="1000" cellspacing="0" cellpadding="0">
+
+<!------------------------------------------------------->
+<!-- BEGINNING OF THE CODE FOR THE CAROUSEL-SLIDESHOW -->
+<!------------------------------------------------------->
+
+<!-- START OF STYLE-CONFIGURATION ZONE  -->
+<style>
+.textstyle {
+position:absolute;
+visibility:visible;
+border-style:solid;
+border-width:2px;
+border-color:#EEEEEE;
+font-family:Arial;
+font-size:8pt;
+color:#FFFFFF;
+text-align:center;
+background-color:#CCCCCC;
+top:-1000px;
+}
+</style>
+<!-- END OF STYLE-CONFIGURATION ZONE  -->
+
+<script>
+// CREDITS:
+// Carousel Slideshow with transparency and zoom effect
+// By Peter Gehrig
+// Copyright (c) 2010 Peter Gehrig. All rights reserved.
+// Permission given to use the script provided that this notice remains as is.
+// Additional scripts can be found at http://www.fabulant.com
+
+// IMPORTANT:
+// If you add this script to a script-library or script-archive
+// you have to add a highly visible link to
+// http://www.fabulant.com on the webpage
+// where this script will be featured
+
+var rotatingimage=new Array()
+var rotatingtext=new Array()
+var rotatinglink=new Array()
+
+///////////////////////////////////////////////////////////////////////////////////////
+// START OF SCRIPT-CONFIGURATION ZONE 
+//////////////////////////////////////////////////////////////////////////////////////
+
+// Set the path and name (or URL) of your images. Add as many images as you like
+// Take care that the images have a decent resolution as they are used for the zoom-images as well
+rotatingimage[0]="images/sunset.jpg"
+rotatingimage[1]="images/exhibited%20photos.jpg"
+rotatingimage[2]="images/under%20construction.jpg"
+rotatingimage[3]="images/birds.jpg"
+rotatingimage[4]="images/Kere%20Night%20.jpg"
+rotatingimage[5]="images/vishwa%20parisara%20dincharane.jpg"
+rotatingimage[6]="images/15th%20kere%20kansere.jpg"
+rotatingimage[7]="images/Actvities.jpg"
+rotatingimage[8]="images/16th%20kere%20kansere.jpg"
+
+// Set the the comments corresponding to the images above (requires the same amount as images!)
+rotatingtext[0]="Kere Sunset"
+rotatingtext[1]="Exhibited Photos"
+rotatingtext[2]="Kere Under Construction"
+rotatingtext[3]="Kere Birds"
+rotatingtext[4]="Kere Night Photos"
+rotatingtext[5]="World Environment Day"
+rotatingtext[6]="Kere Kansere 15th sep 2012, Bapuji Auditorium"
+rotatingtext[7]="Activities"
+rotatingtext[8]="Kere Kansere 16th sep 2012, Bapuji Auditorium"
+
+// Set the the comments corresoponding to the images above (requires the same amount as images!)
+// Set "#" if no link is required
+rotatinglink[0]="Photo%20gallery/sun%20set%20KERE%20Photos/index.html"
+rotatinglink[1]="Photo%20gallery/Exhibited%20Photos/index.html"
+rotatinglink[2]="Photo%20gallery/Activities%20photos/index.html"
+rotatinglink[3]="Photo%20gallery/Birds/index.html"
+rotatinglink[4]="Photo%20gallery/Kere%20Night%20Photos/index.html"
+rotatinglink[5]="Photo%20gallery/vishwa%20parisara%20dincharane/index.html"
+rotatinglink[6]="Photo%20gallery/Kere%20Kansere%2015th%20Sep/index.html"
+rotatinglink[7]="Photo%20gallery/Activities%20photos/index.html"
+rotatinglink[8]="Photo%20gallery/Kere%20Kansere%2016th%20sep/index.html"
+
+// Set the width of the circle (pixels)
+var circlewidth=900
+
+// Set the height of the circle (pixels)
+var circleheight=640
+
+// Set the width of your small rotating images (pixels)
+var imgwidth=150
+
+// Set the height of your small rotating images (pixels)
+var imgheight=113
+
+// Set the height of your textbox (pixels). This is the textbox (comment) below the rotating images
+var textboxheight=17
+
+// Set the path and name (or URL) of your backgroundimage
+// Write "var bgimg=false" if you don't want to add a backgroundimage
+var bgimg="images/background.jpg"
+
+// Set the number of words that will be displayed at once
+var displaymax=7
+
+// Set the speed! Tha values may range from 0.1 to 1.0
+var step=0.02;
+
+// Set the zoomfactor for the big picture that appears on mouseover
+var zoomfactor=2;
+
+// padding to the margin
+var imgpadding=10
+
+/////////////////////////////////////////////////////////////////////////////////////
+// END OF SCRIPT-CONFIGURATION ZONE
+// Do not edit below this line	
+////////////////////////////////////////////////////////////////////////////////////
+
+var maxopacity=new Array()
+var i_imgcounter=0
+var segment=360/(displaymax);
+var decrement=0;
+var op
+var tmr
+var opacitystep=Math.round(100/circleinnerheight)
+var zoomobj
+var twidth
+var theight
+var windowwidth
+var windowheight
+var circleinnerwidth=circlewidth-(imgwidth+2*imgpadding)
+var circleinnerheight=circleheight-(imgheight+2*imgpadding)
+circleinnerwidth=circleinnerwidth/2
+circleinnerheight=circleinnerheight/2
+
+var ns4=document.layers?1:0
+var ns6=document.getElementById&&!document.all?1:0 
+var ie=document.all?1:0
+
+var preloadedimages=new Array()
+for (i=0;i<rotatingimage.length;i++){
+	preloadedimages[i]=new Image()
+	preloadedimages[i].src=rotatingimage[i]
+}
+
+for (i=0;i<displaymax;i++) {
+	maxopacity[i]=1
+}
+
+function getpagesize() {
+	windowwidth=parseInt(document.body.clientWidth)
+	windowheight=parseInt(document.body.clientHeight)
+	twidth=Math.floor(circleinnerwidth)
+	theight=Math.floor(circleinnerheight)
+	i_imgcounter=0
+	
+	for (i=0; i<displaymax; i++) {
+		var thisspan=eval("document.getElementById('span"+i+"').style")
+		thisspan.left=(twidth*Math.sin(decrement+i*segment*Math.PI/180)+circleinnerwidth+imgpadding)+"px";
+		thisspan.top=(theight*Math.cos(decrement+i*segment*Math.PI/180)+circleinnerheight+imgpadding)+"px";
+		thisspan.zIndex=parseInt(thisspan.top)
+
+		op=parseInt(100/circleinnerheight*(parseInt(thisspan.top)*0.5))
+		document.getElementById('span'+i).innerHTML="<a href='"+rotatinglink[i_imgcounter]+"'><img border=0 width="+imgwidth+" src='"+rotatingimage[i_imgcounter]+"' id='im"+i_imgcounter+"' onMouseover='stoprotating(this)' onMouseout='restartrotating()'></a><br>"+rotatingtext[i_imgcounter]
+	document.getElementById('span'+i).style.visibility="visible"
+			maxopacity[i]=-1
+			i_imgcounter++
+		if (i_imgcounter>=rotatingimage.length) {
+			i_imgcounter=0
+		}
+	}
+	
+	rotatetext()
+}
+
+function rotatetext() {
+	for (i=0; i<displaymax; i++) {
+		var thisspan=eval("document.getElementById('span"+i+"').style")
+		thisspan.left=(twidth*Math.sin(decrement+i*segment*Math.PI/180)+circleinnerwidth+imgpadding)+"px";
+		thisspan.top=(theight*Math.cos(decrement+i*segment*Math.PI/180)+circleinnerheight+imgpadding)+"px";
+		thisspan.zIndex=parseInt(thisspan.top)
+
+		op=parseInt((100/circleinnerheight*(parseInt(thisspan.top)*0.5))-imgpadding)
+		
+		if (op<5 && maxopacity[i]==1) {
+			if (i_imgcounter>=rotatingimage.length) {
+				i_imgcounter=0
+			}
+			document.getElementById('span'+i).innerHTML="<a href='"+rotatinglink[i_imgcounter]+"'><img border=0 width="+imgwidth+" src='"+rotatingimage[i_imgcounter]+"' id='im"+i_imgcounter+"' onMouseover='stoprotating(this)' onMouseout='restartrotating()'></a><br>"+rotatingtext[i_imgcounter]
+	document.getElementById('span'+i).style.visibility="visible"
+			maxopacity[i]=-1
+			i_imgcounter++
+		}
+		if (op>90) {
+			maxopacity[i]=1
+		}
+	
+		if (ie) {
+			var thisfilter=eval("document.getElementById('span"+i+"')")
+			thisfilter.filters.alpha.opacity=op
+		}
+		else {
+			var thisfilter=eval("document.getElementById('span"+i+"').style")
+			thisspan.opacity=op/100
+		}
+	}
+	decrement-=step;
+	tmr=setTimeout('rotatetext()', 50);
+}
+
+function stoprotating(thisobj) {
+	clearTimeout(tmr)
+	zoomobj=thisobj
+	document.getElementById(zoomobj.id).style.width=(zoomfactor*imgwidth)+"px"
+	document.getElementById(zoomobj.parentNode.parentNode.id).style.width=(zoomfactor*imgwidth)+"px"
+	zoomobj.parentNode.parentNode.style.zIndex=9999
+	if (ie) {
+		zoomobj.parentNode.parentNode.filters.alpha.opacity=100
+	}
+	else {
+		zoomobj.parentNode.parentNode.style.opacity=1
+	}
+}
+
+function restartrotating() {
+	document.getElementById(zoomobj.id).style.width=imgwidth+"px"
+	document.getElementById(zoomobj.parentNode.parentNode.id).style.width=imgwidth+"px"
+	rotatetext()
+}
+
+
+document.write('<div id="roof" style="position:relative;width:'+circlewidth+'px;height:'+(circleheight+textboxheight)+'px;">')
+if (bgimg) {
+	document.write('<img src="'+bgimg+'" width="'+circlewidth+'" height="'+(circleheight+textboxheight)+'">')
+}
+for (i=0;i<displaymax;i++) {
+	document.write("<div id='span"+i+"' class='textstyle' style='filter:alpha(opacity=80);opacity:0.8;width:"+imgwidth+"px;visibility:hidden'></div>");
+	i_imgcounter++
+	if (i_imgcounter>=rotatingimage.length) {
+		i_imgcounter=0
+	}
+}
+document.write('</div>');
+window.onload=getpagesize;
+</script>
+
+<!------------------------------------------------------->
+<!-- END OF THE CODE FOR THE CAROUSEL-SLIDESHOW -->
+<!------------------------------------------------------->
+</table>
+</div>
+
+<!-- BEGINNING OF THE CODE FOR THE DIAGONAL TEXT TICKER -->
+
+<!----------------------------------------->
+<!-- STYLE-CONFIGURATION STARTS HERE -->
+<!----------------------------------------->	
+	
+<style>
+
+/* PLEASE NOTE that padding, width and height of ticker, border-width must be set within the script-code. See script code below! */
+/* IMPORTANT you may change the direction of typing from bottom to top. See comments below within this style-zone */
+
+a.textstyle {
+color:#ffffff; /* You may change it */
+font-family:Arial; /* You may change it */
+font-size:11pt; /* You may change it */
+font-weight:bold; /* You may change it */
+text-decoration:none; /* You may change it */
+}
+
+a.textstyle:visited {
+color:#ffffff; /* You may change it */
+}
+
+a.textstyle:hover {
+color:yellow; /* You may change it */
+}
+
+.boxstyle {
+background-color:#FF0000;/* You may change it */
+border-color:#DDDDDD;/* You may change it */
+opacity:1; /* Set the opacity for Firefox, Opera, Safari and Chrome. Values may range from 0 to 1 */
+position:absolute; /* Do not change */
+overflow:hidden; /* Do not change */
+display: inline-block; /* Do not change */
+-moz-transform: scale(1) rotate(-45deg) translate(0px); /* Do not change */
+-webkit-transform: scale(1) rotate(-45deg) translate(0px); /* Do not change */
+-o-transform: scale(1) rotate(-45deg) translate(0px); /* Do not change */
+filter: /* Do not change */  
+progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', /* IE6,IE7 */ M11=0.7071067811865476, M12=0.7071067811865475, M21=-0.7071067811865475, M22=0.7071067811865476), 
+/* Do not change */
+-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865476, M12=0.7071067811865475, M21=-0.7071067811865475, M22=0.7071067811865476, sizingMethod='auto expand')"
+/* Do not change */ alpha(opacity=100); /* Set the opacity for Internet Explorer. Values may range from 0 to 100*/
+}
+</style>
+
+<!----------------------------------------->
+<!-- STYLE-CONFIGURATION ENDS HERE -->
+<!----------------------------------------->
+</body>
+
+
+
+<!-- Mirrored from lakesforlife.com/Photos.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Oct 2020 11:54:55 GMT -->
+</html>
